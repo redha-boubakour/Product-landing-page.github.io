@@ -145,3 +145,25 @@ footer {
   font-size: 16px;
   color: black;
 }
+
+@media (max-width: 500px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+      "header"
+      "container-right"
+      "container-left"
+      "feature"
+      "email"
+      "footer";
+  }
+
+  .header .container-left .container-right .feature .email-form .footer {
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
