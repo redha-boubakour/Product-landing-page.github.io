@@ -8,9 +8,112 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/3f0354b14f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Product-landing-page</title>
   </head>
   <body>
-    <h1>Product-landing-page</h1>
+    <header id="header">
+      <img src="./image/Logo.jpg" class="logo" id="header-img" alt="logo" />
+
+      <nav class="nav-bar" id="nav-bar">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#title-features" class="nav-link">Features</a></li>
+          <li><a href="#title-video" class="nav-link">Video</a></li>
+          <li><a href="#title-email" class="nav-link">Email</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="container-left">
+          <h2>The "Lighter" Product</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            dolor harum doloribus. Omnis consectetur odit a dolorum aliquam
+            accusamus est ipsa, quisquam architecto deserunt voluptas voluptate
+            cum totam ipsum dicta nemo voluptatem itaque! Laborum, similique.
+            Ducimus, distinctio commodi voluptatum corrupti ex fugit nulla
+            consequatur. Alias delectus excepturi velit eaque pariatur?
+          </p>
+        </div>
+
+        <div class="container-right">
+          <img id="img-product" src="./image/Product.jpg" alt="product" />
+        </div>
+      </div>
+    </section>
+
+    <h1 id="title-features">Features</h1>
+    <section id="features" class="features">
+      <div class="container">
+        <div class="feature">
+          <i class="fas fa-feather-alt "></i>
+          <h3>Light</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+            et deserunt possimus, sed fugiat sunt odit aperiam! Corrupti,
+            officia consectetur!
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-battery-three-quarters "></i>
+          <h3>Rechargeable</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+            et deserunt possimus, sed fugiat sunt oditaperiam! Corrupti, officia
+            consectetur!
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-mortar-pestle"></i>
+          <h3>Style</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
+            et deserunt possimus, sed fugiat sunt oditaperiam! Corrupti, officia
+            consectetur!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <h1 id="title-video">Video</h1>
+    <section id="video" class="video">
+      <div class="container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/S1LyYnyqRRs"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <h1 id="title-email">Email</h1>
+    <section id="email" class="email">
+      <div class="container">
+        <form action="" class="email-form">
+          <label for="email" id="label-email"
+            >You want to have more informations about our product ?</label
+          >
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email here..."
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      Copyright @Copyright 2020
+    </footer>
   </body>
 </html>
