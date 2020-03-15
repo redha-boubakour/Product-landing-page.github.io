@@ -179,6 +179,10 @@ footer {
     max-width: 80vw;
   }
 
+  .nav-bar {
+    width: 100%;
+  }
+
   .feature,
   .email-form {
     width: 100%;
