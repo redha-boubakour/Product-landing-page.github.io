@@ -108,6 +108,10 @@ header {
   padding: 5px;
 }
 
+iframe {
+  border-radius: 5%;
+}
+
 .email-form {
   display: flex;
   text-align: center;
@@ -115,6 +119,7 @@ header {
   flex-direction: column;
   padding: 20px;
   background-color: #e64040;
+  border-radius: 5%;
   width: 70%;
 }
 
@@ -146,7 +151,9 @@ footer {
   color: black;
 }
 
-@media (max-width: 500px) {
+/* Media query */
+
+@media (max-width: 600px) {
   .container {
     display: grid;
     grid-template-columns: auto;
@@ -160,10 +167,16 @@ footer {
       "footer";
   }
 
-  .header .container-left .container-right .feature .email-form .footer {
-    width: 100vw;
+  .container-left,
+  .container-right {
+    width: 100%;
     align-items: center;
-    text-align: center;
-    justify-content: center;
+  }
+
+  .feature,
+  .email-form {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
   }
 }
