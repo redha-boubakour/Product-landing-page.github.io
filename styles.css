@@ -104,9 +104,13 @@ header {
   padding: 5px;
 }
 
+/* The video */
+
 iframe {
   border-radius: 5%;
 }
+
+/* The email box */
 
 .email-form {
   display: flex;
@@ -137,6 +141,8 @@ iframe {
   padding: 8px;
   margin-top: 15px;
 }
+
+/* The footer */
 
 footer {
   text-align: center;
