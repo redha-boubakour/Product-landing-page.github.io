@@ -150,6 +150,11 @@ footer {
 /* Media query */
 
 @media (max-width: 600px) {
+  .nav-bar li {
+    display: inline-block;
+    padding: 25px 10px;
+  }
+
   .container {
     display: grid;
     grid-template-columns: auto;
@@ -168,6 +173,10 @@ footer {
   iframe {
     width: 100%;
     align-items: center;
+  }
+
+  #img-product {
+    max-width: 100vw;
   }
 
   .feature,
